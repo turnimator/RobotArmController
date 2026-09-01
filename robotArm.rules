@@ -1,0 +1,147 @@
+
+(rules PCB robotArm.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute off)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 5.3)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 4.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.8)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+    (clearance 500.0 (type Power,Default))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_2000:1000_um"
+    (shape
+      (circle F.Cu 2000.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 2000.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 2000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 2000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_2000:1000_um" "Via[0-3]_2000:1000_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_2000:1000_um-kicad_default" "Via[0-3]_2000:1000_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power,Default" "Via[0-3]_600:300_um" Power,Default
+  )
+  (via 
+    "Via[0-3]_2000:1000_um-Power,Default" "Via[0-3]_2000:1000_um" Power,Default
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (via_rule
+    Power,Default "Via[0-3]_2000:1000_um-Power,Default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "unconnected-(U1-MS2-Pad14)" "unconnected-(U1-SPRD-Pad13)" "Net-(J4-2B)" "DIR_1" "unconnected-(U1-PDN-Pad11)" "STEP_1" "unconnected-(U1-MS1-Pad15)" "EN_DRV"
+    "UART2_TX" "DIR_3" "STEP_3" "unconnected-(U2-MS2-Pad14)" "unconnected-(U7-GPIO16-Pad21)" "unconnected-(U2-SPRD-Pad13)" "unconnected-(U2-PDN-Pad11)" "STEP_4"
+    "DIR_4" "STEP_2" "unconnected-(U4-PDN-Pad11)" "DIR_2" "unconnected-(U4-SPRD-Pad13)" D0 "unconnected-(U5-SPRD-Pad13)" +12V
+    "Net-(D1-K)" "Net-(D2-K)" "Net-(D3-K)" "Net-(D4-K)" "unconnected-(U5-PDN-Pad11)" DIAG1 D5 D3
+    "unconnected-(U5-MS1-Pad15)" D7 D4 D6 D2 D1 "unconnected-(U6-~{Q7}-Pad7)" "Net-(U6-DS)"
+    DIAG2 "unconnected-(U7-GPIO5-Pad23)" CLK "unconnected-(U7-GPIO2-Pad19)" DATA "unconnected-(U7-GPIO35-Pad11)" "unconnected-(U7-GPIO34-Pad12)" "unconnected-(U7-GPIO27-Pad6)"
+    "unconnected-(U7-GPIO12-Pad4)" "unconnected-(U7-GPIO39-Pad13)" "unconnected-(U7-GPIO1-Pad28)" "unconnected-(U7-EN-Pad15)" LOAD "unconnected-(U7-GPIO21-Pad26)" "unconnected-(U7-GPIO25-Pad8)" "unconnected-(U7-GPIO33-Pad9)"
+    DIAG3 DIAG4 "Net-(D5-K)" "Net-(D6-K)" "Net-(D7-K)" "Net-(D8-K)" IX1 IX2
+    IX3 IX4 "unconnected-(U7-3.3v-Pad16)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Power,Default
+    +3.3V GND "/M4-1B" "/M4-2A" "/M4-1A" "/M1-1B" "/M1-2B" "/M1-2A"
+    "/M1-1A" "/M2-1B" "/M2-2A" "/M2-1A" "/M2-2B" "/M3-1B" "/M3-2A" "/M3-1A"
+    "/M3-2B" /GROUND
+    (clearance_class Power,Default)
+    (via_rule Power,Default)
+    (rule
+      (width 1200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
