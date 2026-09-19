@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "esp32_30pin_revised")(type "KiCad")(uri "/home/atle/projects/kicadpcb/ESP32-DevKit-V1-DOIT/esp32_30pin_revised.kicad_sym")(options "")(descr ""))
   (lib (name "Buck3V3")(type "KiCad")(uri "${ATLE_KICAD_3DMODEL_DIR}/Buck3V3.kicad_sym")(options "")(descr ""))
+  (lib (name "Robot_Controller")(type "KiCad")(uri "${ATLE_KICAD_3DMODEL_DIR}/robotArm/Robot_Controller.kicad_sym")(options "")(descr ""))
 )
