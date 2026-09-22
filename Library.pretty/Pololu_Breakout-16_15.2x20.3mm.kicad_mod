@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8")
 	(tags "Pololu Breakout")
-	(property "Reference" "REF**"
-		(at 6.35 -2.54 0)
+	(property "Reference" "U5"
+		(at 6.35 -2.54 180)
 		(layer "F.SilkS")
-		(uuid "05ccdf2f-c4f0-4475-bcd9-f1ec554057f0")
+		(uuid "9bc99514-2028-44ea-a8d0-053baabc3781")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "Pololu_Breakout-16_15.2x20.3mm"
-		(at 6.35 20.17 0)
+	(property "Value" "TMC2209 Module"
+		(at 6.35 20.17 180)
 		(layer "F.Fab")
-		(uuid "2e390c47-779d-4587-8c70-b24269f1c29f")
+		(uuid "e3a6fe4a-af6d-4aeb-b0f5-1229f0f8e903")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3974cd12-b625-4036-b7f0-95b74122f89f")
+		(uuid "1ad200e2-36eb-4456-93eb-c6c9b12ed59c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,10 +45,166 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a093d798-154d-4b3a-9c9d-27d0b0803a6e")
+		(uuid "8c55ad72-0dbd-4a0b-8f40-d2676b52413c")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Trinamic Motion Control GmbH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20ee9889-1811-4d13-aa10-e93bccb50533")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "TMC2209 Motor Controller/Driver Power Management Evaluation Board"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcf3bebb-6ee4-4e17-bf21-c8d1ffa891c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a50e4c8-2446-4e61-96e9-90660425f1fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "746a32fe-56af-47e4-af59-b8f935872a65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68db190d-8f97-4bf0-8f0f-0f9c0d309f39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62b21a02-7a35-4e6a-a32f-ee15a0c0ae69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "1.20"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c05498f-08ce-4501-bca4-0181e5066697")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c3323c9-bd06-4451-9548-bf04ff511c22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "TMC2209 SILENTSTEPSTICK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "135402a8-45a7-48f6-9f66-98ab18300060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Trinamic Motion Control GmbH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf6d6687-be08-4b7e-9f91-80e01f0c578a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9753494f-642e-4c27-aebc-66143d36e884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SNAPEDA_PN" "TMC2209 SILENTSTEPSTICK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c83e5622-23af-4692-9248-31c7b5d109b7")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -62,7 +218,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9fd8924e-59be-4220-a4f0-8826996718c3")
+		(uuid "183c60b6-476d-483b-849a-8905db6f365c")
 	)
 	(fp_line
 		(start -1.4 1.27)
@@ -72,7 +228,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ebba8f54-4f64-4ee3-83f7-542a3b4ce9ff")
+		(uuid "2f7ad208-994c-45ac-82b5-211ac29e823c")
 	)
 	(fp_line
 		(start -1.4 19.18)
@@ -82,7 +238,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1f01e891-6f4f-4dbc-a764-ed5fd2883408")
+		(uuid "a0e58cbf-5ed8-4ac8-b0b5-e91949c33ccf")
 	)
 	(fp_line
 		(start 0 -1.4)
@@ -92,7 +248,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "888e952f-fd10-49c1-b504-52c23dad5a2e")
+		(uuid "c10d5189-3732-4d31-8632-8c7541b8677d")
 	)
 	(fp_line
 		(start 1.27 -1.4)
@@ -102,7 +258,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "84170ae6-30b0-4c7a-a047-8ffd9eac9d74")
+		(uuid "6186b969-c1e0-4e7e-bb36-5b056711c465")
 	)
 	(fp_line
 		(start 1.27 1.27)
@@ -112,7 +268,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7cd939fe-f239-48b0-84b0-db4c73b495b0")
+		(uuid "2cf6a5c9-0c2d-403d-8591-7fff907f1083")
 	)
 	(fp_line
 		(start 1.27 1.27)
@@ -122,7 +278,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "878a80d1-cd31-4ad5-b401-47da6eede999")
+		(uuid "2e918a9e-c3cb-4dd5-950a-91e9655cfca0")
 	)
 	(fp_line
 		(start 11.43 -1.4)
@@ -132,7 +288,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "721011f6-9bad-4233-8e51-f343d657ca00")
+		(uuid "ab2d643e-8543-4537-9037-524060609102")
 	)
 	(fp_line
 		(start 14.1 -1.4)
@@ -142,7 +298,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "759b5851-f0dc-4bf5-b98e-4fd9c1b2c87b")
+		(uuid "c07a18bb-704a-471c-befe-1c11f0e6457b")
 	)
 	(fp_line
 		(start 14.1 19.18)
@@ -152,7 +308,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "15be6a81-38cd-48c0-a658-95ca1cf860cf")
+		(uuid "1a75c5b2-a9e9-438d-b146-481ccaaf0304")
 	)
 	(fp_line
 		(start -1.53 -1.52)
@@ -162,7 +318,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "71197baa-69d8-4f8f-9ffd-241132fcf73a")
+		(uuid "dc7f7910-beec-4d01-a09e-1df9276a99cf")
 	)
 	(fp_line
 		(start -1.53 -1.52)
@@ -172,7 +328,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b74ddb9a-007d-4b73-9c0a-645308fec65a")
+		(uuid "0d275373-314d-4e39-9302-3ff0bb5b0cc7")
 	)
 	(fp_line
 		(start 14.21 19.3)
@@ -182,7 +338,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d37b421c-1844-4dc2-ae83-79c1411d8c89")
+		(uuid "1deb2b03-9b86-4abb-a98d-168bfd4484cd")
 	)
 	(fp_line
 		(start 14.21 19.3)
@@ -192,7 +348,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1bfa112d-e2a6-4dd2-9ed5-a9eeda41f009")
+		(uuid "a5ad381a-14ce-4f5d-8925-a34c9d8d390a")
 	)
 	(fp_line
 		(start -1.27 0)
@@ -202,7 +358,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "29499d72-54e9-40d1-8791-5581662227be")
+		(uuid "4be7fe31-b2c7-45da-ab4b-c543f3b21ae6")
 	)
 	(fp_line
 		(start -1.27 19.05)
@@ -212,7 +368,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "35af0296-2cb7-431b-8543-e8d68c22ab11")
+		(uuid "2225a631-a366-40f8-884c-2c43fe92ae77")
 	)
 	(fp_line
 		(start 0 -1.27)
@@ -222,7 +378,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3065d307-d27b-4459-a59d-4b98af61841d")
+		(uuid "85c0e785-787b-4824-aff0-43cb2b073f1a")
 	)
 	(fp_line
 		(start 13.97 -1.27)
@@ -232,7 +388,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "41f5b452-4e42-4293-8e21-149fa3213f1c")
+		(uuid "34103122-6d36-46c2-b406-7c26365c73ab")
 	)
 	(fp_line
 		(start 13.97 19.05)
@@ -242,12 +398,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b9869771-847d-40cc-8a79-af275c85fb38")
+		(uuid "42d545ad-2715-400b-b1ec-d283cb3ac3c4")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 6.35 0 0)
+		(at 6.35 0 180)
 		(layer "F.Fab")
-		(uuid "82866c8a-11ec-4480-b5f2-9f133ec9ac4c")
+		(uuid "5e5ca83b-1ad4-4687-bf58-34388c9d822d")
 		(effects
 			(font
 				(size 1 1)
@@ -261,7 +417,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a5bf6fea-baf2-47b3-a4de-8b32482d1fec")
+		(uuid "6e9953ac-f1e5-4543-a4ef-83973cd04d15")
 	)
 	(pad "2" thru_hole oval
 		(at 0 2.54)
@@ -269,7 +425,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5fa27605-9535-40c5-8d2d-0036dbfbd977")
+		(uuid "48b7e285-0448-417d-b534-672a9cbafb2d")
 	)
 	(pad "3" thru_hole oval
 		(at 0 5.08)
@@ -277,7 +433,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "567c6f9a-ceba-4996-baf1-d518b7cfc1b8")
+		(uuid "9e6bdf54-d82a-44c1-b3a6-16efd0315aca")
 	)
 	(pad "4" thru_hole oval
 		(at 0 7.62)
@@ -285,7 +441,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6ce49674-00e7-4943-a7d1-ce6de8f047bb")
+		(uuid "bd1feb40-c918-4ae2-8a3b-29c2eb92550a")
 	)
 	(pad "5" thru_hole oval
 		(at 0 10.16)
@@ -293,7 +449,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e6577bf3-114f-40f7-9ba0-e5a48d073d09")
+		(uuid "3c89f559-fdf9-4672-9d4e-d73bee307d58")
 	)
 	(pad "6" thru_hole oval
 		(at 0 12.7)
@@ -301,7 +457,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ea59663c-dd2b-49a4-aceb-928cd2103174")
+		(uuid "7a2fd259-2584-4689-9599-09d06f3161fe")
 	)
 	(pad "7" thru_hole oval
 		(at 0 15.24)
@@ -309,7 +465,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8c37b18a-4212-47fc-9def-1e1911f29a8f")
+		(uuid "c4c75658-ac69-4340-a934-6d36d686e49c")
 	)
 	(pad "8" thru_hole oval
 		(at 0 17.78)
@@ -317,7 +473,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "af5e149d-65b5-47d1-93a1-6f0bcce1e672")
+		(uuid "1ddd1921-af34-4fe8-9ebb-455af3896be3")
 	)
 	(pad "9" thru_hole oval
 		(at 12.7 17.78)
@@ -325,7 +481,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "27a7cd1a-78f1-4fbd-ae91-3389acd852e1")
+		(uuid "2097e12d-fde5-48b2-84ca-87c3f984ec6f")
 	)
 	(pad "10" thru_hole oval
 		(at 12.7 15.24)
@@ -333,7 +489,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f2c14cae-1d8f-41be-b78b-5954bdddae1b")
+		(uuid "6b99654a-25d5-4846-a5d2-759eda086a40")
 	)
 	(pad "11" thru_hole oval
 		(at 12.7 12.7)
@@ -341,7 +497,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "10776c48-2eaa-431b-8de2-6a3291f4f0f7")
+		(uuid "707dad1b-b0ea-488c-9636-7854beb56b34")
 	)
 	(pad "12" thru_hole oval
 		(at 12.7 10.16)
@@ -349,7 +505,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "51b86555-2619-45da-af9c-4c0e580657fc")
+		(uuid "d49b0154-18b2-44fe-b526-eb95ecce9aed")
 	)
 	(pad "13" thru_hole oval
 		(at 12.7 7.62)
@@ -357,7 +513,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0fced33b-9b6c-410b-b200-84a860f57f4a")
+		(uuid "b58a61cb-2c60-482f-b5fe-472e646ceffa")
 	)
 	(pad "14" thru_hole oval
 		(at 12.7 5.08)
@@ -365,7 +521,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c95ddd35-51ec-4578-826e-0e9625e86489")
+		(uuid "9791590c-9dba-4bfd-8319-4ec7cf7f8d20")
 	)
 	(pad "15" thru_hole oval
 		(at 12.7 2.54)
@@ -373,7 +529,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1cef4470-7a63-4408-bfdd-2738afea9d7d")
+		(uuid "38018f28-d54e-44a3-acfd-278bbf061cca")
 	)
 	(pad "16" thru_hole oval
 		(at 12.7 0)
@@ -381,7 +537,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "de170945-c365-417e-bd94-f8aafba2aa2a")
+		(uuid "ecee819d-3b50-4b82-b016-5514f50fae02")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.step"
