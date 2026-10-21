@@ -512,12 +512,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.4,
         "name": "+12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.5,
+        "track_width": 1.5,
         "via_diameter": 1.0,
         "via_drill": 0.8,
         "wire_width": 20
@@ -548,7 +548,56 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/A1-DRV1": [
+        "+12V"
+      ],
+      "/A1-DRV2": [
+        "+12V"
+      ],
+      "/A1-DRV3": [
+        "+12V"
+      ],
+      "/A1-DRV4": [
+        "+12V"
+      ],
+      "/A2-DRV1": [
+        "+12V"
+      ],
+      "/A2-DRV2": [
+        "+12V"
+      ],
+      "/A2-DRV3": [
+        "+12V"
+      ],
+      "/A2-DRV4": [
+        "+12V"
+      ],
+      "/B1-DRV1": [
+        "+12V"
+      ],
+      "/B1-DRV2": [
+        "+12V"
+      ],
+      "/B1-DRV3": [
+        "+12V"
+      ],
+      "/B1-DRV4": [
+        "+12V"
+      ],
+      "/B2-DRV1": [
+        "+12V"
+      ],
+      "/B2-DRV2": [
+        "+12V"
+      ],
+      "/B2-DRV3": [
+        "+12V"
+      ],
+      "/B2-DRV4": [
+        "+12V"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -663,71 +712,71 @@
         "pattern": "/POWER12V"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M1-1B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M1-1A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M1-2B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M3-1A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M3-1B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M3-2A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M3-2B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M2-1A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M2-1B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M2-2A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M2-2B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M1-2A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M4-1B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M4-1A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M4-2A"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "/M4-2B"
       },
       {
-        "netclass": "Power",
+        "netclass": "+12V",
         "pattern": "+12V"
       }
     ]

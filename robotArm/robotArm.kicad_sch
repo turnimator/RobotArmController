@@ -8799,6 +8799,7 @@
 	)
 	(label "B2-DRV3"
 		(at 261.62 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8806,6 +8807,16 @@
 			(justify left bottom)
 		)
 		(uuid "199c33a2-5eb5-45d6-87a7-17a6bde12ca3")
+		(property "Netclass" "+12V"
+			(at 261.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B2-DRV1"
 		(at 114.3 17.78 180)
@@ -8839,6 +8850,7 @@
 	)
 	(label "A2-DRV4"
 		(at 266.7 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8846,6 +8858,16 @@
 			(justify left bottom)
 		)
 		(uuid "32d4299b-ae8d-4a41-a112-53c3e7241823")
+		(property "Netclass" "+12V"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "A2-DRV2"
 		(at 196.85 36.83 0)
@@ -8856,6 +8878,16 @@
 			(justify left bottom)
 		)
 		(uuid "3339cde2-14d3-479c-9adc-93b2eef0ed96")
+		(property "Netclass" "+12V"
+			(at 207.518 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "A2-DRV1"
 		(at 140.97 36.83 0)
@@ -8866,6 +8898,16 @@
 			(justify left bottom)
 		)
 		(uuid "37f84fef-c880-4282-a138-d6aa180264c5")
+		(property "Netclass" "+12V"
+			(at 150.876 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "A1-DRV2"
 		(at 196.85 39.37 0)
@@ -8876,6 +8918,16 @@
 			(justify left bottom)
 		)
 		(uuid "41faf573-48f2-49ed-b6f8-cbe13a618573")
+		(property "Netclass" "+12V"
+			(at 207.264 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "A1-DRV4"
 		(at 233.68 72.39 180)
@@ -8889,6 +8941,7 @@
 	)
 	(label "B1-DRV3"
 		(at 261.62 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8896,6 +8949,16 @@
 			(justify left bottom)
 		)
 		(uuid "48e3c5bb-4eec-48a7-932d-57579c70023a")
+		(property "Netclass" "+12V"
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B1-DRV2"
 		(at 196.85 41.91 0)
@@ -8906,6 +8969,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c4d858d-88b7-4cdc-a5a5-a5859a7cc11e")
+		(property "Netclass" "+12V"
+			(at 208.026 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "A1-DRV1"
 		(at 114.3 22.86 180)
@@ -8949,6 +9022,7 @@
 	)
 	(label "A1-DRV3"
 		(at 261.62 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8956,6 +9030,16 @@
 			(justify left bottom)
 		)
 		(uuid "695688c4-820d-4692-8f10-1fb40baf439b")
+		(property "Netclass" "+12V"
+			(at 261.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B1-DRV1"
 		(at 140.97 41.91 0)
@@ -8966,6 +9050,16 @@
 			(justify left bottom)
 		)
 		(uuid "6db2ec7e-9e93-4c8e-9c2d-868aa31ca5e0")
+		(property "Netclass" "+12V"
+			(at 151.384 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "A2-DRV3"
 		(at 233.68 20.32 180)
@@ -9029,6 +9123,7 @@
 	)
 	(label "A1-DRV4"
 		(at 266.7 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9036,9 +9131,20 @@
 			(justify left bottom)
 		)
 		(uuid "8d52a246-aa80-4722-a400-a77a935550c1")
+		(property "Netclass" "+12V"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B1-DRV4"
 		(at 266.7 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9046,6 +9152,16 @@
 			(justify left bottom)
 		)
 		(uuid "8ea7ad59-4b3d-4473-ab9c-f792cd0638e0")
+		(property "Netclass" "+12V"
+			(at 266.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "EN_DRV2"
 		(at 176.53 31.75 180)
@@ -9069,6 +9185,7 @@
 	)
 	(label "A2-DRV3"
 		(at 261.62 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9076,6 +9193,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7bee4b7-cbbf-4174-a173-6730feb23632")
+		(property "Netclass" "+12V"
+			(at 261.62 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B2-DRV2"
 		(at 172.72 16.51 180)
@@ -9146,6 +9273,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce7c041e-5861-46d3-a0a5-7a1c230dab02")
+		(property "Netclass" "+12V"
+			(at 150.876 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B1-DRV1"
 		(at 114.3 25.4 180)
@@ -9159,6 +9296,7 @@
 	)
 	(label "B2-DRV2"
 		(at 196.85 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9166,6 +9304,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4e5c58f-6ae5-4e55-8d8d-67a8e2571cec")
+		(property "Netclass" "+12V"
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B2-DRV1"
 		(at 140.97 44.45 0)
@@ -9176,9 +9324,20 @@
 			(justify left bottom)
 		)
 		(uuid "eb1d7b08-1a2f-4a86-a275-9790689cda20")
+		(property "Netclass" "+12V"
+			(at 150.876 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "B2-DRV4"
 		(at 266.7 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9186,6 +9345,16 @@
 			(justify left bottom)
 		)
 		(uuid "f27f58a8-7363-4f12-b256-703ca313c09d")
+		(property "Netclass" "+12V"
+			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "EN_DRV4"
 		(at 246.38 87.63 180)
